@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="piano-container">
+        <div class="keys">
+            <div class="white-keys">
+                <button class="key white-key" data-note="1">C</button>
+                <button class="key white-key" data-note="2">D</button>
+                <button class="key white-key" data-note="3">E</button>
+                <button class="key white-key" data-note="4">F</button>
+                <button class="key white-key" data-note="5">G</button>
+                <button class="key white-key" data-note="6">A</button>
+                <button class="key white-key" data-note="7">B</button>
+            </div>
+            <div class="black-keys">
+                <button class="key black-key" data-note="8">C#</button>
+                <button class="key black-key" data-note="9">D#</button>
+                <button class="key black-key" data-note="10">F#</button>
+                <button class="key black-key" data-note="11">G#</button>
+                <button class="key black-key" data-note="12">A#</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="audio1" src="audio/audio1.mp3"></audio>
+    <audio id="audio2" src="audio/audio2.mp3"></audio>
+    <audio id="audio3" src="audio/audio3.mp3"></audio>
+    <audio id="audio4" src="audio/audio4.mp3"></audio>
+    <audio id="audio5" src="audio/audio5.mp3"></audio>
+    <audio id="audio6" src="audio/audio6.mp3"></audio>
+    <audio id="audio7" src="audio/audio7.mp3"></audio>
+    <audio id="audio8" src="audio/audio8.mp3"></audio>
+    <audio id="audio9" src="audio/audio9.mp3"></audio>
+    <audio id="audio10" src="audio/audio10.mp3"></audio>
+    <audio id="audio11" src="audio/audio11.mp3"></audio>
+    <audio id="audio12" src="audio/audio12.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
